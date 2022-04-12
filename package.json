@@ -1,0 +1,21 @@
+{
+  "name": "web3-layer",
+  "version": "1.0.0",
+  "description": "Web3 JS layer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-trace-warnings": "node --trace-warnings index.js",
+    "server": "nodemon index.js"
+  },
+  "author": "TheGreg",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "web3": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
